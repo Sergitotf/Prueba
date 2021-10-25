@@ -8,6 +8,9 @@ public class ChangeSceneWithButton : MonoBehaviour
     public GameObject pantalla1;
     public GameObject pantalla2;
     public GameObject pantalla3;
+    public GameObject pantalla4;
+    public GameObject pantalla5;
+    public GameObject pantalla6;
     public float contador;
     public float cuentaAtras = 18f;
 
@@ -56,7 +59,7 @@ public class ChangeSceneWithButton : MonoBehaviour
         {
             pantalla2.SetActive(false);
             pantalla3.SetActive(true);
-        }
+        } 
     }
  }
 
