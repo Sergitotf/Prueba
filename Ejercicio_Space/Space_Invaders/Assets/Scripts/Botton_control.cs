@@ -6,19 +6,14 @@ using UnityEngine.UI;
 public class Botton_control : MonoBehaviour
 {
     public Button option1;
-    public GameObject inicio;
 
-    void Start()
+    void OnEnable()
     {
-        inicio.SetActive(true);
         option1.Select();
     }
 
     
-    void Update()
-    {
-        
-    }
+   
     /* habilitar la selección del primer botón
      public Button selectedButton; 
      

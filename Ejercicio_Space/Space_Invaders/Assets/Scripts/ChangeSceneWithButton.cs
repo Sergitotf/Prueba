@@ -12,6 +12,8 @@ public class ChangeSceneWithButton : MonoBehaviour
     public GameObject pantalla4;
     public GameObject pantalla5;
     public GameObject pantalla6;
+    public GameObject currentScreen;
+    public GameObject nextScreen;
     public float contador;
     public float cuentaAtras = 18f;
 
@@ -50,5 +52,14 @@ public class ChangeSceneWithButton : MonoBehaviour
         } 
        
     }
- }
+    // crear multiples pantallas
+       
+    public void NextScreen()
+    {
+    currentScreen.SetActive(false);
+    nextScreen.SetActive(true);
+    }
+
+     
+}
 
