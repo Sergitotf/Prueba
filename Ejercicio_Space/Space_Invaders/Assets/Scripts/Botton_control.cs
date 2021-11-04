@@ -14,13 +14,7 @@ public class Botton_control : MonoBehaviour
 
     
    
-    /* habilitar la selección del primer botón
-     public Button selectedButton; 
+    // habilitar la selección del primer botón
      
-    void OnEnable()
-    {
-    selectedButton.Select();
-    }
-     */ 
     
 }

@@ -15,9 +15,21 @@ public class ChangeSceneWithButton : MonoBehaviour
     public GameObject currentScreen;
     public GameObject nextScreen;
     public float contador;
-    public float cuentaAtras = 18f;
+    public float cuentaAtras = 34f;
+    public static ChangeSceneWithButton instance;
 
-        void Start() 
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy (this);
+        }
+    }
+    void Start() 
     { //Bucle entre pantallas, reinicia el contador.
         contador = 0f;
         pantalla1.SetActive(true);
@@ -37,11 +49,12 @@ public class ChangeSceneWithButton : MonoBehaviour
             pantalla2.SetActive(true);
         }
         //Cuenta atrás para el salto de pantalla, si llega a cuentaAtras, salta a pantalla2.
-        if (contador >= cuentaAtras)
-        {
+        if (cuentaAtras >= 34f && cuentaAtras < 36f)
+        { 
             pantalla1.SetActive(false);
             pantalla2.SetActive(true);
         }
+        
       
        
         //Saltar a la tercera pantalla presionando espacio
