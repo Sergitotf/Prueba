@@ -30,7 +30,9 @@ public class ChangeSceneWithButton : MonoBehaviour
         }
     }
     void Start() 
-    { //Bucle entre pantallas, reinicia el contador.
+    {
+        //Bucle entre pantallas, reinicia el contador.
+
         contador = 0f;
         pantalla1.SetActive(true);
         pantalla2.SetActive(false);
@@ -38,17 +40,23 @@ public class ChangeSceneWithButton : MonoBehaviour
     }
 
     void Update()
-    {   //Contador de tiempo mientras el juego esté en funcionamiento
+
+    {   
+        //Contador de tiempo mientras el juego esté en funcionamiento
+
         contador += Time.deltaTime;
        
 
         //Presionar tecla espacio para saltar pantallas.
+
         if (Input.GetKeyUp(KeyCode.Space) && pantalla3.gameObject.activeSelf == false)
         {
             pantalla1.SetActive(false);
             pantalla2.SetActive(true);
         }
+
         //Cuenta atrás para el salto de pantalla, si llega a cuentaAtras, salta a pantalla2.
+
         if (cuentaAtras >= 34f && cuentaAtras < 36f)
         { 
             pantalla1.SetActive(false);
@@ -58,6 +66,8 @@ public class ChangeSceneWithButton : MonoBehaviour
       
        
         //Saltar a la tercera pantalla presionando espacio
+
+
         if (pantalla2.gameObject.activeSelf == true && Input.GetKeyDown(KeyCode.Space))
         {
             pantalla2.SetActive(false);
@@ -65,6 +75,7 @@ public class ChangeSceneWithButton : MonoBehaviour
         } 
        
     }
+
     // crear multiples pantallas
        
     public void NextScreen()
