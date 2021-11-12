@@ -36,7 +36,10 @@ public class ChangeSceneWithButton : MonoBehaviour
         contador = 0f;
         pantalla1.SetActive(true);
         pantalla2.SetActive(false);
-        pantalla3.SetActive(false); 
+        pantalla3.SetActive(false);
+        pantalla4.SetActive(false);
+        pantalla5.SetActive(false);
+        pantalla6.SetActive(false);
     }
 
     void Update()
