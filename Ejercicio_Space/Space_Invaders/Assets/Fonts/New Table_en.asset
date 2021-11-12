@@ -23,7 +23,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7225640939520
-    m_Localized: hi
+    m_Localized: "\r\nAfter more than 20 years in the shadows,\r\n\r\nplayers will
+      be able to enter space\r\n\r\ninfinity facing one more time, the races\r\n\r\naliens
+      that endanger human life,\r\n\r\nat least as we know it today.\r\n\r\nThe victor
+      is in our ranks, but ...\r\n\r\n             Are you our savior?"
     m_Metadata:
       m_Items: []
   - m_Id: 7110784118784
@@ -64,6 +67,42 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 12077263679488
     m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226450309574656
+    m_Localized: Space
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226549928488960
+    m_Localized: Invaders
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226662197424128
+    m_Localized: "Sergio Casta\xF1eda Guti\xE9rrez"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226919421505536
+    m_Localized: Invaders
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226770712457216
+    m_Localized: Space
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228977683918848
+    m_Localized: 1 Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229092318441472
+    m_Localized: 2 Players Local coop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229221712719872
+    m_Localized: 2 Players Online coop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229449085939712
+    m_Localized: Cancel
     m_Metadata:
       m_Items: []
   references:
