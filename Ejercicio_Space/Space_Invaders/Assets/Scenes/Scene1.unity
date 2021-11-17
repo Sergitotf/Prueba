@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1220,13 +1220,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11500000, guid: f83f4fdbe210cda45b18faeee09ca974, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
+      - m_Target: {fileID: 833074144}
+        m_TargetAssemblyTypeName: SetVolume, Assembly-CSharp
+        m_MethodName: CancelMusicVolume
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2566,7 +2566,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &599464887
 Transform:
   m_ObjectHideFlags: 0
@@ -2594,9 +2594,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f83f4fdbe210cda45b18faeee09ca974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  globalMusic: {fileID: 79797856}
   musicaSlider: {fileID: 660545322}
-  idiomaSettings: {fileID: 0}
+  efectosSlider: {fileID: 0}
   index: 0
 --- !u!114 &599464889
 MonoBehaviour:
@@ -2610,9 +2609,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f83f4fdbe210cda45b18faeee09ca974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  globalMusic: {fileID: 733214132}
   musicaSlider: {fileID: 147364982}
-  idiomaSettings: {fileID: 0}
+  efectosSlider: {fileID: 0}
   index: 0
 --- !u!1 &605567427
 GameObject:
@@ -3763,6 +3761,7 @@ GameObject:
   - component: {fileID: 833074141}
   - component: {fileID: 833074142}
   - component: {fileID: 833074143}
+  - component: {fileID: 833074144}
   m_Layer: 0
   m_Name: SceneControl
   m_TagString: Untagged
@@ -3866,6 +3865,21 @@ MonoBehaviour:
   pantalla4: {fileID: 599464886}
   pantalla5: {fileID: 659550584}
   pantalla6: {fileID: 713058377}
+--- !u!114 &833074144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833074137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f83f4fdbe210cda45b18faeee09ca974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicaSlider: {fileID: 660545322}
+  efectosSlider: {fileID: 147364982}
+  index: 0
 --- !u!1 &900691302
 GameObject:
   m_ObjectHideFlags: 0
@@ -4017,8 +4031,8 @@ RectTransform:
   m_Father: {fileID: 225719357}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4566,6 +4580,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 833074144}
+        m_TargetAssemblyTypeName: SetVolume, Assembly-CSharp
+        m_MethodName: AcceptMusicVolume
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5472,7 +5498,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5970,7 +5996,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -7294,8 +7320,8 @@ RectTransform:
   m_Father: {fileID: 1660187774}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
