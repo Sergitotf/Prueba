@@ -1,9 +1,17 @@
 {
+<<<<<<< HEAD
 "Date": "25/11/2021 20:43:36",
+=======
+"Date": "17/11/2021 8:47:36",
+>>>>>>> parent of 06f7c77 (18/11 13:26)
 "UnityVersion": "2020.3.12f1",
 "com.unity.scriptablebuildpipeline": "1.19.3",
 "com.unity.addressables": "1.19.9",
 "traceEvents": [
+<<<<<<< HEAD
 {"name": "Building Use Asset Database (fastest)", "ph": "X", "dur": 946.7, "tid": 1, "ts": 2571, "pid": 1}
+=======
+{"name": "Building Use Asset Database (fastest)", "ph": "X", "dur": 1137.1, "tid": 1, "ts": 8206, "pid": 1}
+>>>>>>> parent of 06f7c77 (18/11 13:26)
 ]
 }
