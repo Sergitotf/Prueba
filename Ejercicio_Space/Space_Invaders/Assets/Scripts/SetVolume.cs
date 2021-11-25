@@ -8,35 +8,34 @@ using UnityEngine.Localization.Settings;
 public class SetVolume : MonoBehaviour
 {
     
-    public AudioSource globalMusic;
+    
     public Slider musicaSlider;
-    public LocalizationSettings idiomaSettings;
+    public Slider efectosSlider;
     public int index;
+    public void OnEnable()
+    {
+        efectosSlider.value = PlayerPrefs.GetFloat("EfectosVolume", 1.0f);
+        musicaSlider.value = PlayerPrefs.GetFloat("MusicVolume", 1.0f);
 
+    }
     void Start()
     {
-        musicaSlider.value = PlayerPrefs.GetFloat("MusicVolume");
-        globalMusic.volume = musicaSlider.value;
-       /* PlayerPrefs.SetFloat("MusicVolume", globalMusic.volume);
-        musicaSlider.value = globalMusic.volume;
-        PlayerPrefs.SetInt("index", index);*/
+        
     }
-    
+    //Guardar cambios de los slider
     public void AcceptMusicVolume()
     {
-        globalMusic.volume = musicaSlider.value;
-        PlayerPrefs.SetFloat("MusicVolume", musicaSlider.value);
-        /*
-        PlayerPrefs.SetFloat("MusicVolume", globalMusic.volume);
-        PlayerPrefs.SetInt("index", index);
-        idiomaSettings.SetSelectedLocale(LocalizationSettings.AvailableLocales.Locales[PlayerPrefs.GetInt("Index")]); */
+         PlayerPrefs.SetFloat("MusicVolume", musicaSlider.value);
+        PlayerPrefs.SetFloat("EfectosVolume", efectosSlider.value);
+        PlayerPrefs.Save();
 
     }
+    //Cancelar cambios slider
     public void CancelMusicVolume()
     {
-        globalMusic.volume = PlayerPrefs.GetFloat("MusicVolume");
+        efectosSlider.value = PlayerPrefs.GetFloat("EfectosVolume");
         musicaSlider.value = PlayerPrefs.GetFloat("MusicVolume");
-        idiomaSettings.SetSelectedLocale(LocalizationSettings.AvailableLocales.Locales[PlayerPrefs.GetInt("Index")]);
+        
 
     }
     public void CambioIndex(int indice)
