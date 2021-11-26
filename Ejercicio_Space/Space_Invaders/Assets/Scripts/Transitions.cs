@@ -15,7 +15,7 @@ public class Transitions : MonoBehaviour
 
     void Start()
     {
-       /* LeanTween.scale(pantalla1, new Vector3(0f, 0f, 0f), 0f);
+        LeanTween.scale(pantalla1, new Vector3(0f, 0f, 0f), 0f);
         LeanTween.scale(pantalla2, new Vector3(0f, 0f, 0f), 0f);
         LeanTween.scale(pantalla3, new Vector3(0f, 0f, 0f), 0f);
         LeanTween.scale(pantalla4, new Vector3(0f, 0f, 0f), 0f);
@@ -94,7 +94,7 @@ public class Transitions : MonoBehaviour
         {
            LeanTween.scale(pantalla6, new Vector3(0f, 0f, 0f), 0f);
         }
-        */
+        
 
             //minimiza de nuevo el tamaño de las pantallas
 
