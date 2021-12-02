@@ -11,7 +11,9 @@ public class SetVolume : MonoBehaviour
     
     public Slider musicaSlider;
     public Slider efectosSlider;
+    int idioma= 0;
     public int index;
+   
     public void OnEnable()
     {
         efectosSlider.value = PlayerPrefs.GetFloat("EfectosVolume", 1.0f);
@@ -19,6 +21,10 @@ public class SetVolume : MonoBehaviour
 
     }
     void Start()
+    {
+        
+    }
+    private void Update()
     {
         
     }
@@ -42,6 +48,19 @@ public class SetVolume : MonoBehaviour
     {
         index = indice;
     }
+    public void AcceptLanguage()
+    {
+        PlayerPrefs.SetInt("Idioma", idioma);
+        PlayerPrefs.Save();
+
+    }
+    //Cancelar cambios slider
+    public void CancelLanguage()
+    {
+        idioma = PlayerPrefs.GetInt("Idioma");
+    }
+
+
 }
 
 //Control de sonido, mixer
