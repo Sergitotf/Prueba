@@ -15,11 +15,11 @@ C:/Users/Alumnado 3D/Desktop/RAY/Prueba/Ejercicio_Space/Space_Invaders
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49750
+50832
 Successfully changed project path to: C:/Users/Alumnado 3D/Desktop/RAY/Prueba/Ejercicio_Space/Space_Invaders
 C:/Users/Alumnado 3D/Desktop/RAY/Prueba/Ejercicio_Space/Space_Invaders
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 51.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 69.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,66 +35,66 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002844 seconds.
+Registered in 0.002441 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 69.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.077 seconds
+- Completed reload, in  2.361 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011412 seconds.
+Registered in 0.005557 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027086EFC9B0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000022DE5528B20 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027086F18AC0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000022F7F79E030 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027086D36020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000022DE4086C20 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708B6B8230 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000022DE4C8C230 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708BD1A020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000022DE4397020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708CDC6860 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000022F7FE68900 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027086CCD010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000022DE4397020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708B5E74B0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000022DE4C8C230 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708C35AE20 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000022DE40CE230 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708C571380 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000022F7F3AB210 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027086CF3220 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000022DE4778C30 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708BD35030 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000022DE4B29010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708B7B6010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000022DE4AD6A20 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.645 seconds
+- Completed reload, in  1.293 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2401 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.7 MB.
-System memory in use after: 97.9 MB.
+Unloading 2402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.8 MB.
+System memory in use after: 98.0 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2830.
-Total: 3.132000 ms (FindLiveObjects: 0.275700 ms CreateObjectMapping: 0.128400 ms MarkObjects: 2.647000 ms  DeleteObjects: 0.079700 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2831.
+Total: 2.471900 ms (FindLiveObjects: 0.235900 ms CreateObjectMapping: 0.123400 ms MarkObjects: 2.040100 ms  DeleteObjects: 0.071500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -108,585 +108,161 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Spaceshipdata.cs
-  artifactKey: Guid(081a7fee2075fb941a92f0ef80a87148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Spaceshipdata.cs using Guid(081a7fee2075fb941a92f0ef80a87148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88be21de66c5b41094fb221b2597ea11') in 0.037125 seconds 
-  Import took 0.041621 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009796 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000270904CE490 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708D37C020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027087491960 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708D37C020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708B681020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708F8D7E30 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027086CCD010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708F8D7E30 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027087662010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708C571380 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270901C3C20 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270902E8010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027086E9EF00 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.045 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.7 MB.
-System memory in use after: 95.9 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2832.
-Total: 2.680900 ms (FindLiveObjects: 0.262200 ms CreateObjectMapping: 0.133600 ms MarkObjects: 2.258100 ms  DeleteObjects: 0.025400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 476.549687 seconds.
-  path: Assets/Scripts/Spaceshipdata.cs
-  artifactKey: Guid(081a7fee2075fb941a92f0ef80a87148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Spaceshipdata.cs using Guid(081a7fee2075fb941a92f0ef80a87148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01df4105c3e9fe1f23cd5a20e40422b5') in 0.010381 seconds 
-  Import took 0.015048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.105425 seconds.
-  path: Assets/Scripts/Spaceshipdata.cs
-  artifactKey: Guid(081a7fee2075fb941a92f0ef80a87148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Spaceshipdata.cs using Guid(081a7fee2075fb941a92f0ef80a87148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01df4105c3e9fe1f23cd5a20e40422b5') in 0.017165 seconds 
-  Import took 0.027279 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005395 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002708F285060 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708B5B0080 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027087491960 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270901B9010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708FB40A30 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270901B9010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270904C4020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270901B9010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708D1D8020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026EBE4D72A0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027086DB2020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027091447040 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027086E9EF00 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.266 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.7 MB.
-System memory in use after: 95.9 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2834.
-Total: 2.768000 ms (FindLiveObjects: 0.215900 ms CreateObjectMapping: 0.114900 ms MarkObjects: 2.380800 ms  DeleteObjects: 0.055500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 32.441944 seconds.
-  path: Assets/Spaceships
-  artifactKey: Guid(17a24375287cabe4a9f8d0bdc0937628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spaceships using Guid(17a24375287cabe4a9f8d0bdc0937628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b3cf452b9e68de82980ff572847594') in 0.009607 seconds 
-  Import took 0.013558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.088094 seconds.
-  path: Assets/Spaceships
-  artifactKey: Guid(17a24375287cabe4a9f8d0bdc0937628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spaceships using Guid(17a24375287cabe4a9f8d0bdc0937628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b3cf452b9e68de82980ff572847594') in 0.006455 seconds 
-  Import took 0.011232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.910838 seconds.
-  path: Assets/Spaceships/Malphite.asset
-  artifactKey: Guid(5ba95a2f35a26e5438e8725013ee114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spaceships/Malphite.asset using Guid(5ba95a2f35a26e5438e8725013ee114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4e514be5135e6b67c13e7ebe880e65') in 0.024206 seconds 
-  Import took 0.028445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.518746 seconds.
-  path: Assets/Spaceships/NewBehaviourScript.cs
-  artifactKey: Guid(4d9748f4431ed314997d73fae0edea33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spaceships/NewBehaviourScript.cs using Guid(4d9748f4431ed314997d73fae0edea33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9513aa77ae44b623f1e717b7e301a97a') in 0.010249 seconds 
-  Import took 0.014302 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005976 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000270916A2540 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708F05A020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027086DB2020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708FCEF050 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027087213010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270872A7820 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270904C4020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708FCEF050 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027090975BE0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708C571380 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270909F13B0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270902E8010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270911F4FE0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.288 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2353 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.8 MB.
-System memory in use after: 96.0 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2837.
-Total: 2.527300 ms (FindLiveObjects: 0.245700 ms CreateObjectMapping: 0.125400 ms MarkObjects: 2.135400 ms  DeleteObjects: 0.019200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005700 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002709158BCC0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708BD4A050 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027087491960 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002709080F0A0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708D5ADD80 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270872A7820 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270904C4020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002709080F0A0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708FBB2FF0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708BDA6060 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027090012840 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270902E8010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002709159BC80 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.234 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.8 MB.
-System memory in use after: 96.0 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2838.
-Total: 2.665200 ms (FindLiveObjects: 0.208600 ms CreateObjectMapping: 0.104100 ms MarkObjects: 2.312900 ms  DeleteObjects: 0.038600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 25.406238 seconds.
-  path: Assets/Spaceships/Vayne.asset
-  artifactKey: Guid(6af908445abc1f344b1f3a083edf7e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spaceships/Vayne.asset using Guid(6af908445abc1f344b1f3a083edf7e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f9bbfa3a0f676a0d9391ec49286ea2') in 0.022428 seconds 
-  Import took 0.026353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.072096 seconds.
-  path: Assets/Spaceships/Vayne.asset
-  artifactKey: Guid(6af908445abc1f344b1f3a083edf7e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spaceships/Vayne.asset using Guid(6af908445abc1f344b1f3a083edf7e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f9bbfa3a0f676a0d9391ec49286ea2') in 0.009413 seconds 
-  Import took 0.013418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.592467 seconds.
   path: Assets/Spaceships/Rumble.asset
   artifactKey: Guid(b1411be3700611e42b92b9bf09c09a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Spaceships/Rumble.asset using Guid(b1411be3700611e42b92b9bf09c09a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13718f33ce01ad4af6b511dcfd140891') in 0.009150 seconds 
-  Import took 0.015595 seconds .
+Start importing Assets/Spaceships/Rumble.asset using Guid(b1411be3700611e42b92b9bf09c09a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79846cf67651e9b9d3bed06e393e9c3') in 0.039411 seconds 
+  Import took 0.043378 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 696.464849 seconds.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Spaceships/Malphite.asset
+  artifactKey: Guid(5ba95a2f35a26e5438e8725013ee114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceships/Malphite.asset using Guid(5ba95a2f35a26e5438e8725013ee114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ee7616009f4ea10b22ac885dc52eb3') in 0.009241 seconds 
+  Import took 0.013034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Spaceships/Vayne.asset
+  artifactKey: Guid(6af908445abc1f344b1f3a083edf7e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceships/Vayne.asset using Guid(6af908445abc1f344b1f3a083edf7e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c766785602521360cb3c4f3c973df433') in 0.007765 seconds 
+  Import took 0.011775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 269.481239 seconds.
+  path: Assets/Fonts/A-Space Light Italic Demo.otf
+  artifactKey: Guid(6eb59c05994d3eb4d8573352ec9b21b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/A-Space Light Italic Demo.otf using Guid(6eb59c05994d3eb4d8573352ec9b21b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd34b8c793081949d4096081a38fcf31') in 0.106664 seconds 
+  Import took 0.110639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Fonts/New Table_en.asset
+  artifactKey: Guid(df48954be32a3724fbd0409117f9ed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/New Table_en.asset using Guid(df48954be32a3724fbd0409117f9ed31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9ff74f9bbfa78f426cae6bbd4238a6') in 0.008894 seconds 
+  Import took 0.013111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Fonts/New Table.asset
+  artifactKey: Guid(247a26602c85a29449ccac0c20af2695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/New Table.asset using Guid(247a26602c85a29449ccac0c20af2695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dad2817b29d4d51297f318bb68ba182') in 0.009158 seconds 
+  Import took 0.013553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Fonts/New Table Shared Data.asset
+  artifactKey: Guid(853e1db645155b04387f338acb0832db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/New Table Shared Data.asset using Guid(853e1db645155b04387f338acb0832db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350b51f17d967322f4cba0d3ef9f8be2') in 0.007874 seconds 
+  Import took 0.013561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Fonts/space_invaders.ttf
+  artifactKey: Guid(bd86b97880657d24f8b3ea621548ac71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/space_invaders.ttf using Guid(bd86b97880657d24f8b3ea621548ac71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f80d72dd6ef1213f35f119b80e2b063') in 0.020847 seconds 
+  Import took 0.025947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Fonts/Spaceline.otf
+  artifactKey: Guid(20bdc4476d40aba45a982d9bf392d354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Spaceline.otf using Guid(20bdc4476d40aba45a982d9bf392d354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428cae3f7d723ad3860725c1bdff224e') in 0.023224 seconds 
+  Import took 0.028098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Fonts/A-Space Regular Demo.otf
+  artifactKey: Guid(ab2c610cf2bcda84695b08729dc755c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/A-Space Regular Demo.otf using Guid(ab2c610cf2bcda84695b08729dc755c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214ff5e56fa039822f5b71f6afab19aa') in 0.021855 seconds 
+  Import took 0.025621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Fonts/kenvector_future.ttf
+  artifactKey: Guid(0acf4452bb94478408ec7945747192ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/kenvector_future.ttf using Guid(0acf4452bb94478408ec7945747192ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3169e4909403e669c9e766b039e75a92') in 0.022612 seconds 
+  Import took 0.026719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Fonts/New Table_es.asset
+  artifactKey: Guid(3d993df8ea9575b409ada59f469d9286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/New Table_es.asset using Guid(3d993df8ea9575b409ada59f469d9286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebaa6ca4478b63c704ddfabd8330f985') in 0.007878 seconds 
+  Import took 0.012246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Fonts/English (en).asset
+  artifactKey: Guid(2f81b1ea3a2821443931be34c0f37a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/English (en).asset using Guid(2f81b1ea3a2821443931be34c0f37a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbeb5ac8cce29f8a09abe195681a6d8c') in 0.009013 seconds 
+  Import took 0.013226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Fonts/kenvector_future_thin.ttf
+  artifactKey: Guid(7a512471ec0ed394ba771c1e94c6fbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/kenvector_future_thin.ttf using Guid(7a512471ec0ed394ba771c1e94c6fbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34806594e025440a4a70d667584e0d3') in 0.020571 seconds 
+  Import took 0.025543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Fonts/Spanish (es).asset
+  artifactKey: Guid(6d98bfbd26c743f4aad67f3e080f3a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Spanish (es).asset using Guid(6d98bfbd26c743f4aad67f3e080f3a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8ef62ad1e93d961f78b7dea119b7a2') in 0.008053 seconds 
+  Import took 0.012350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Fonts/invaders.from.space.[fontvir.us].ttf
+  artifactKey: Guid(890da8fb048653e428adff20a3f50d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/invaders.from.space.[fontvir.us].ttf using Guid(890da8fb048653e428adff20a3f50d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54efc9862438d7777afbe98ade10b41c') in 0.021339 seconds 
+  Import took 0.026920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Fonts/Localization Settings.asset
+  artifactKey: Guid(d930c16d4b5dda240b112469cc2c3fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Localization Settings.asset using Guid(d930c16d4b5dda240b112469cc2c3fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817306ce203d0de98b2e05d388096326') in 0.020277 seconds 
+  Import took 0.025307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 873.701079 seconds.
   path: Assets/Scripts/SpaceShipScreen.cs
   artifactKey: Guid(0236f01446f3af349825ba88fa88c3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SpaceShipScreen.cs using Guid(0236f01446f3af349825ba88fa88c3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b3bae26115a0ef0e16913b1a2884f6') in 0.015619 seconds 
-  Import took 0.019350 seconds .
+Start importing Assets/Scripts/SpaceShipScreen.cs using Guid(0236f01446f3af349825ba88fa88c3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a6e05ba2574bd9737ce378bd6f6429') in 0.013846 seconds 
+  Import took 0.019409 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005274 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002708F874910 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708D37C020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027087491960 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027090801070 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708D186020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270872A7820 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270904C4020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027090801070 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708FBB2FF0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270909ADAF0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027086C24DF0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270902E8010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027086E9EF00 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.201 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2353 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.7 MB.
-System memory in use after: 95.9 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2841.
-Total: 3.048800 ms (FindLiveObjects: 0.265900 ms CreateObjectMapping: 0.115300 ms MarkObjects: 2.647100 ms  DeleteObjects: 0.019300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 172.865116 seconds.
+  Time since last request: 0.001536 seconds.
   path: Assets/Scripts/SpaceShipScreen.cs
   artifactKey: Guid(0236f01446f3af349825ba88fa88c3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SpaceShipScreen.cs using Guid(0236f01446f3af349825ba88fa88c3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde72461ae57b33983d1df45c8c484f7') in 0.008753 seconds 
-  Import took 0.013356 seconds .
+Start importing Assets/Scripts/SpaceShipScreen.cs using Guid(0236f01446f3af349825ba88fa88c3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a6e05ba2574bd9737ce378bd6f6429') in 0.002342 seconds 
+  Import took 0.007705 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.109603 seconds.
-  path: Assets/Scripts/SpaceShipScreen.cs
-  artifactKey: Guid(0236f01446f3af349825ba88fa88c3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SpaceShipScreen.cs using Guid(0236f01446f3af349825ba88fa88c3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde72461ae57b33983d1df45c8c484f7') in 0.018176 seconds 
-  Import took 0.026795 seconds .
+  Time since last request: 5.978352 seconds.
+  path: Assets/Scripts/Audio_inicio.cs
+  artifactKey: Guid(393971b7e7dd30143b7b735af9bdb11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Audio_inicio.cs using Guid(393971b7e7dd30143b7b735af9bdb11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981303b91ac11652575003b636451789') in 0.008823 seconds 
+  Import took 0.012758 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 1087.793891 seconds.
-  path: Assets/Scripts/SetVolume.cs
-  artifactKey: Guid(f83f4fdbe210cda45b18faeee09ca974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SetVolume.cs using Guid(f83f4fdbe210cda45b18faeee09ca974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5009ec9b880fbf0d321254a8bd5d68cf') in 0.016176 seconds 
-  Import took 0.021244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 807.031599 seconds.
-  path: Assets/Scripts/Spaceshipdata.cs
-  artifactKey: Guid(081a7fee2075fb941a92f0ef80a87148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Spaceshipdata.cs using Guid(081a7fee2075fb941a92f0ef80a87148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840aa0f068bd29a8d23800b55f04d40c') in 0.004436 seconds 
-  Import took 0.009889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 79.797751 seconds.
-  path: Assets/Scripts/SpaceShipScreen.cs
-  artifactKey: Guid(0236f01446f3af349825ba88fa88c3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SpaceShipScreen.cs using Guid(0236f01446f3af349825ba88fa88c3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb1466da687c8cd1747d4546e6d953e') in 0.009167 seconds 
-  Import took 0.014237 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005083 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000270914D0660 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002709100D010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027087491960 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708F5CF030 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708D186020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027086D2E010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270904C4020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708F5CF030 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708FBB2FF0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027087491960 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270909ADAF0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270902E8010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708FB40A30 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.274 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2353 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.8 MB.
-System memory in use after: 96.0 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2843.
-Total: 2.678000 ms (FindLiveObjects: 0.219200 ms CreateObjectMapping: 0.108700 ms MarkObjects: 2.306900 ms  DeleteObjects: 0.042300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005147 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002708CB04CB0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708B5B0080 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027087491960 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708F1ED010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270915CBCB0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270B27D8010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002709160F020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708F1ED010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708FBB2FF0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000026EBE4D72A0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027090012840 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270902E8010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002709163F050 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.197 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2353 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.8 MB.
-System memory in use after: 96.0 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2845.
-Total: 2.450200 ms (FindLiveObjects: 0.218900 ms CreateObjectMapping: 0.111000 ms MarkObjects: 2.086000 ms  DeleteObjects: 0.033100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.127688 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002708F61D070 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002709098BF30 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027087491960 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027086D2E010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270B27E6360 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002709098BF30 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027086BEC420 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027086D2E010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708FBB2FF0 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027087491960 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002708D29A020 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000270902E8010 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027091ADA030 doesn't match image C:\Users\Alumnado 3D\Desktop\RAY\Prueba\Ejercicio_Space\Space_Invaders\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.174 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2353 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.8 MB.
-System memory in use after: 96.1 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2847.
-Total: 2.599400 ms (FindLiveObjects: 0.198100 ms CreateObjectMapping: 0.101500 ms MarkObjects: 2.259300 ms  DeleteObjects: 0.039500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
