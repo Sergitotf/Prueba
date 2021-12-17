@@ -6,45 +6,83 @@ using TMPro;
 
 public class SpaceShipScreen : MonoBehaviour
 {
-    public Spaceshipdata infoSpaceShip;
+    public Spaceshipdata[] infoSpaceShip;
     public Slider speedSlider;
     public Slider shieldSlider;
     public Slider heatSlider;
     public TextMeshProUGUI spaceName;
-    private float speed = 1f;
+    public int shipActive = 0;
+    public GameObject[] ModeloNave;
+    public float velocidadSlider = 0.01f;
     void Start()
     {
         speedSlider.value = 0;
         shieldSlider.value = 0;
         heatSlider.value = 0;
-        Debug.Log(infoSpaceShip.speed);
-        Debug.Log(infoSpaceShip.shield);
-        Debug.Log(infoSpaceShip.spaceshipname);
-        Debug.Log(infoSpaceShip.heat);
+        
+    }
+    public void OnEnable()
+    {
+        ModeloNave[0].SetActive(true);
     }
 
     // Update is called once per frame
     void Update()
     {
-        speedSlider.value = infoSpaceShip.speed;
-        heatSlider.value = infoSpaceShip.heat;
-        shieldSlider.value = infoSpaceShip.shield;
-
-
-        if (shieldSlider.value < infoSpaceShip.shield)
+        if (shieldSlider.value < infoSpaceShip[shipActive].shield - 0.1)
         {
-            shieldSlider.value += Time.deltaTime * speed;
+            shieldSlider.value += Mathf.Lerp(0,infoSpaceShip[shipActive].shield, velocidadSlider);
 
         }
-        if (speedSlider.value < infoSpaceShip.speed)
+        if (speedSlider.value < infoSpaceShip[shipActive].speed - 0.1)
         {
-            speedSlider.value += Time.deltaTime * speed;
+            speedSlider.value += Mathf.Lerp(0, infoSpaceShip[shipActive].speed, velocidadSlider);
 
         }
-        if (heatSlider.value < infoSpaceShip.heat)
+        if (heatSlider.value < infoSpaceShip[shipActive].heat - 0.1)
         {
-            heatSlider.value += Time.deltaTime * speed;
+            heatSlider.value += Mathf.Lerp(0, infoSpaceShip[shipActive].heat, velocidadSlider);
 
         }
+
+        if (shieldSlider.value > infoSpaceShip[shipActive].shield + 0.1)
+        {
+            shieldSlider.value -= Mathf.Lerp(0, infoSpaceShip[shipActive].shield, velocidadSlider);
+
+        }
+        if (speedSlider.value > infoSpaceShip[shipActive].speed + 0.1)
+        {
+            speedSlider.value -= Mathf.Lerp(0, infoSpaceShip[shipActive].speed, velocidadSlider);
+
+        }
+        if (heatSlider.value > infoSpaceShip[shipActive].heat + 0.1)
+        {
+            heatSlider.value -= Mathf.Lerp(0, infoSpaceShip[shipActive].heat, velocidadSlider);
+
+        }
+        spaceName.text = infoSpaceShip[shipActive].spaceshipname;
+
+    }
+   //selección con botones de las naves siguiente y anterior
+    public void SelectNextShip()
+    {
+        ModeloNave[shipActive].SetActive(false);
+        shipActive++;
+        if (shipActive > 2)
+        {
+            shipActive = 0;
+        }
+        ModeloNave[shipActive].SetActive(true);
+    }
+
+    public void SelectfirstShip()
+    {
+        ModeloNave[shipActive].SetActive(false);
+        shipActive--;
+        if (shipActive < 0)
+        {
+            shipActive = 2;
+        }
+        ModeloNave[shipActive].SetActive(true);
     }
 }

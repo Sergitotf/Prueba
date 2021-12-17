@@ -11,6 +11,7 @@ public class Transitions : MonoBehaviour
     public GameObject pantalla4;
     public GameObject pantalla5;
     public GameObject pantalla6;
+    public GameObject pantalla7;
 
 
     void Start()
@@ -21,7 +22,8 @@ public class Transitions : MonoBehaviour
         LeanTween.scale(pantalla4, new Vector3(0f, 0f, 0f), 0f);
         LeanTween.scale(pantalla5, new Vector3(0f, 0f, 0f), 0f);
         LeanTween.scale(pantalla6, new Vector3(0f, 0f, 0f), 0f);
-       
+        LeanTween.scale(pantalla7, new Vector3(0f, 0f, 0f), 0f);
+
 
 
         //las pantallas empiezan minimizadas en 0 en las tres dimensiones
@@ -59,6 +61,10 @@ public class Transitions : MonoBehaviour
         {
             LeanTween.scale(pantalla6, new Vector3(1f, 1f, 1f), 1.0f).setEaseOutBounce();
         }
+        if (pantalla7.gameObject.activeSelf == true)
+        {
+            LeanTween.scale(pantalla7, new Vector3(1f, 1f, 1f), 1.0f).setEaseOutBounce();
+        }
 
 
         //activa la transición entre pantallas
@@ -94,9 +100,13 @@ public class Transitions : MonoBehaviour
         {
            LeanTween.scale(pantalla6, new Vector3(0f, 0f, 0f), 0f);
         }
-        
+        if (pantalla7.gameObject.activeSelf == false)
+        {
+            LeanTween.scale(pantalla7, new Vector3(0f, 0f, 0f), 0f);
+        }
 
-            //minimiza de nuevo el tamaño de las pantallas
+
+        //minimiza de nuevo el tamaño de las pantallas
 
 
 

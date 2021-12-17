@@ -12,6 +12,7 @@ public class ChangeSceneWithButton : MonoBehaviour
     public GameObject pantalla4;
     public GameObject pantalla5;
     public GameObject pantalla6;
+    public GameObject pantalla7;
     public GameObject currentScreen;
     public GameObject nextScreen;
     public float contador;
@@ -40,6 +41,7 @@ public class ChangeSceneWithButton : MonoBehaviour
         pantalla4.SetActive(false);
         pantalla5.SetActive(false);
         pantalla6.SetActive(false);
+        pantalla7.SetActive(false);
     }
 
     void Update()
