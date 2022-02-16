@@ -13,6 +13,7 @@ public class EnemyController : MonoBehaviour
     int direction = 1;
     Animator animator;
     Vector2 lookDirection = new Vector2(1,0);
+    bool broken = true;
 
     void Start()
     {
@@ -48,6 +49,12 @@ public class EnemyController : MonoBehaviour
         }
 
         rigidbody2D.MovePosition(position);
+
+        //reiniciar el robot
+        if (!broken)
+        {
+            return;
+        }
     }
     void OnCollisionEnter2D(Collision2D other)
     {
@@ -57,5 +64,12 @@ public class EnemyController : MonoBehaviour
         {
             player.ChangeHealth(-1);
         }
+    }
+
+    //reparacion del robot
+    public void Fix()
+    {
+        broken = false;
+        rigidbody2D.simulated = false;
     }
 }
