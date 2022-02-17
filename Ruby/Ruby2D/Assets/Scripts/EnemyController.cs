@@ -14,6 +14,7 @@ public class EnemyController : MonoBehaviour
     Animator animator;
     Vector2 lookDirection = new Vector2(1,0);
     bool broken = true;
+    public ParticleSystem smokeEffect;
 
     void Start()
     {
@@ -71,5 +72,7 @@ public class EnemyController : MonoBehaviour
     {
         broken = false;
         rigidbody2D.simulated = false;
+        animator.SetTrigger("Fixed");
+        smokeEffect.Stop();
     }
 }
