@@ -8,8 +8,8 @@ public class RubyController : MonoBehaviour
     public int maxHealth = 5;
     public int health { get { return currentHealth; } }
     int currentHealth;
-    public float timeInvincible = 2.0f;
-    bool isInvincible;
+    public float timeInvincible = 30.0f;
+    bool isInvincible = false;
     float invincibleTimer;
     Rigidbody2D rigidbody2d;
     Vector2 lookDirection = new Vector2(1, 0);
@@ -34,8 +34,20 @@ public class RubyController : MonoBehaviour
         audioSource.PlayOneShot(clip);
 
     }
+    public void ChangePower()
+    {
+        if (currentHealth < maxHealth)
+        {
+            if (isInvincible)
+                return;
 
-   
+            isInvincible = true;
+            invincibleTimer = timeInvincible;
+
+        }
+    }
+
+    //movimiento y posición de ruby
     void Update()
     {
         float horizontal = Input.GetAxis("Horizontal");
@@ -59,13 +71,18 @@ public class RubyController : MonoBehaviour
 
         rigidbody2d.MovePosition(position);
 
+        //volver invencible a Ruby
+
+
         if (isInvincible)
         {
             invincibleTimer -= Time.deltaTime;
             if (invincibleTimer < 0)
                 isInvincible = false;
         }
+
         //lanzar proyectil, llama a la funcion launch
+
         if (Input.GetKeyDown(KeyCode.C))
         {
             Launch();
@@ -88,7 +105,7 @@ public class RubyController : MonoBehaviour
         }
 
     }
-
+    // perder vida y se vuelve invencible
     public void ChangeHealth(int amount)
     {
         if (amount < 0)

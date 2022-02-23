@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class SpaceShipScreen : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class SpaceShipScreen : MonoBehaviour
     public int shipActive = 0;
     public GameObject[] ModeloNave;
     public float velocidadSlider = 0.01f;
+
+    //valor por defecto de los sliders
     void Start()
     {
         speedSlider.value = 0;
@@ -26,7 +29,7 @@ public class SpaceShipScreen : MonoBehaviour
         ModeloNave[0].SetActive(true);
     }
 
-    // Update is called once per frame
+    // Permite que cargue la información de la nave y la refleje en los sliders.
     void Update()
     {
         if (shieldSlider.value < infoSpaceShip[shipActive].shield - 0.1)
@@ -84,5 +87,15 @@ public class SpaceShipScreen : MonoBehaviour
             shipActive = 2;
         }
         ModeloNave[shipActive].SetActive(true);
+    }
+
+    public void Jugar()
+    {
+
+    }
+
+    public void ChangeScene()
+    {
+        SceneManager.LoadScene("EscenaJuego");
     }
 }
