@@ -13,5 +13,7 @@ public class Spaceshipdata : ScriptableObject
     public float speed = 0;
     [Range(0, 3.0f)]
     public float heat = 0;
+
+    public GameObject prefab;
     
 }
