@@ -4,16 +4,12 @@ using UnityEngine;
 
 public class EnableScreen : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //Crea una animación general para todas las pantallas (Un escalado de 0-1), que añadimos a cada una de ellas.
     void OnEnable()
     {
         LeanTween.scale(gameObject, new Vector3(0f, 0f, 0f), 0f);
         LeanTween.scale(gameObject, new Vector3(1f, 1f, 1f), 1.0f).setEaseOutBounce();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }

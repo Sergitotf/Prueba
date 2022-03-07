@@ -19,6 +19,8 @@ public class ChangeSceneWithButton : MonoBehaviour
     public float cuentaAtras = 34f;
     public static ChangeSceneWithButton instance;
 
+    //En el awake le decimos que si hay alguna activa, lo destruya.
+
     private void Awake()
     {
         if (instance == null)

@@ -24,6 +24,7 @@ public class SpaceShipScreen : MonoBehaviour
         heatSlider.value = 0;
         
     }
+    //permite que al iniciar, siempre exista la nave 0 activa.
     public void OnEnable()
     {
         ModeloNave[0].SetActive(true);
