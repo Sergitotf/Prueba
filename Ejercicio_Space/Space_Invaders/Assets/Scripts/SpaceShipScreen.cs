@@ -15,7 +15,7 @@ public class SpaceShipScreen : MonoBehaviour
     public int shipActive = 0;
     public GameObject[] ModeloNave;
     public float velocidadSlider = 0.01f;
-
+    
     //valor por defecto de los sliders
     void Start()
     {
@@ -27,7 +27,10 @@ public class SpaceShipScreen : MonoBehaviour
     //permite que al iniciar, siempre exista la nave 0 activa.
     public void OnEnable()
     {
+
         ModeloNave[0].SetActive(true);
+        GameDataPersistent.instance.selectedSpaceship = infoSpaceShip[shipActive];
+        Debug.Log("mecagoenmismuertos");
     }
 
     // Permite que cargue la información de la nave y la refleje en los sliders.
@@ -77,6 +80,8 @@ public class SpaceShipScreen : MonoBehaviour
             shipActive = 0;
         }
         ModeloNave[shipActive].SetActive(true);
+          GameDataPersistent.instance.selectedSpaceship = infoSpaceShip[shipActive];
+       // Debug.Log(infoSpaceShip[shipActive]);
     }
 
     public void SelectfirstShip()
@@ -88,6 +93,7 @@ public class SpaceShipScreen : MonoBehaviour
             shipActive = 2;
         }
         ModeloNave[shipActive].SetActive(true);
+       GameDataPersistent.instance.selectedSpaceship = infoSpaceShip[shipActive];
     }
 
     public void Jugar()
